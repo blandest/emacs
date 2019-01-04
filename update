@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# ./autogen.sh
+./configure --with-json=yes --with-modules && make && sudo make install
